@@ -1,7 +1,201 @@
+/*
+	Apache License
+	Version 2.0, January 2004
+	http://www.apache.org/licenses/
+	
+	TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+	
+	1. Definitions.
+	
+	"License" shall mean the terms and conditions for use, reproduction, and
+	distribution as defined by Sections 1 through 9 of this document.
+	
+	"Licensor" shall mean the copyright owner or entity authorized by the copyright
+	owner that is granting the License.
+	
+	"Legal Entity" shall mean the union of the acting entity and all other entities
+	that control, are controlled by, or are under common control with that entity.
+	For the purposes of this definition, "control" means (i) the power, direct or
+	indirect, to cause the direction or management of such entity, whether by
+	contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the
+	outstanding shares, or (iii) beneficial ownership of such entity.
+	
+	"You" (or "Your") shall mean an individual or Legal Entity exercising
+	permissions granted by this License.
+	
+	"Source" form shall mean the preferred form for making modifications, including
+	but not limited to software source code, documentation source, and configuration
+	files.
+	
+	"Object" form shall mean any form resulting from mechanical transformation or
+	translation of a Source form, including but not limited to compiled object code,
+	generated documentation, and conversions to other media types.
+	
+	"Work" shall mean the work of authorship, whether in Source or Object form, made
+	available under the License, as indicated by a copyright notice that is included
+	in or attached to the work (an example is provided in the Appendix below).
+	
+	"Derivative Works" shall mean any work, whether in Source or Object form, that
+	is based on (or derived from) the Work and for which the editorial revisions,
+	annotations, elaborations, or other modifications represent, as a whole, an
+	original work of authorship. For the purposes of this License, Derivative Works
+	shall not include works that remain separable from, or merely link (or bind by
+	name) to the interfaces of, the Work and Derivative Works thereof.
+	
+	"Contribution" shall mean any work of authorship, including the original version
+	of the Work and any modifications or additions to that Work or Derivative Works
+	thereof, that is intentionally submitted to Licensor for inclusion in the Work
+	by the copyright owner or by an individual or Legal Entity authorized to submit
+	on behalf of the copyright owner. For the purposes of this definition,
+	"submitted" means any form of electronic, verbal, or written communication sent
+	to the Licensor or its representatives, including but not limited to
+	communication on electronic mailing lists, source code control systems, and
+	issue tracking systems that are managed by, or on behalf of, the Licensor for
+	the purpose of discussing and improving the Work, but excluding communication
+	that is conspicuously marked or otherwise designated in writing by the copyright
+	owner as "Not a Contribution."
+	
+	"Contributor" shall mean Licensor and any individual or Legal Entity on behalf
+	of whom a Contribution has been received by Licensor and subsequently
+	incorporated within the Work.
+	
+	2. Grant of Copyright License.
+	
+	Subject to the terms and conditions of this License, each Contributor hereby
+	grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free,
+	irrevocable copyright license to reproduce, prepare Derivative Works of,
+	publicly display, publicly perform, sublicense, and distribute the Work and such
+	Derivative Works in Source or Object form.
+	
+	3. Grant of Patent License.
+	
+	Subject to the terms and conditions of this License, each Contributor hereby
+	grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free,
+	irrevocable (except as stated in this section) patent license to make, have
+	made, use, offer to sell, sell, import, and otherwise transfer the Work, where
+	such license applies only to those patent claims licensable by such Contributor
+	that are necessarily infringed by their Contribution(s) alone or by combination
+	of their Contribution(s) with the Work to which such Contribution(s) was
+	submitted. If You institute patent litigation against any entity (including a
+	cross-claim or counterclaim in a lawsuit) alleging that the Work or a
+	Contribution incorporated within the Work constitutes direct or contributory
+	patent infringement, then any patent licenses granted to You under this License
+	for that Work shall terminate as of the date such litigation is filed.
+	
+	4. Redistribution.
+	
+	You may reproduce and distribute copies of the Work or Derivative Works thereof
+	in any medium, with or without modifications, and in Source or Object form,
+	provided that You meet the following conditions:
+	
+	You must give any other recipients of the Work or Derivative Works a copy of
+	this License; and
+	You must cause any modified files to carry prominent notices stating that You
+	changed the files; and
+	You must retain, in the Source form of any Derivative Works that You distribute,
+	all copyright, patent, trademark, and attribution notices from the Source form
+	of the Work, excluding those notices that do not pertain to any part of the
+	Derivative Works; and
+	If the Work includes a "NOTICE" text file as part of its distribution, then any
+	Derivative Works that You distribute must include a readable copy of the
+	attribution notices contained within such NOTICE file, excluding those notices
+	that do not pertain to any part of the Derivative Works, in at least one of the
+	following places: within a NOTICE text file distributed as part of the
+	Derivative Works; within the Source form or documentation, if provided along
+	with the Derivative Works; or, within a display generated by the Derivative
+	Works, if and wherever such third-party notices normally appear. The contents of
+	the NOTICE file are for informational purposes only and do not modify the
+	License. You may add Your own attribution notices within Derivative Works that
+	You distribute, alongside or as an addendum to the NOTICE text from the Work,
+	provided that such additional attribution notices cannot be construed as
+	modifying the License.
+	You may add Your own copyright statement to Your modifications and may provide
+	additional or different license terms and conditions for use, reproduction, or
+	distribution of Your modifications, or for any such Derivative Works as a whole,
+	provided Your use, reproduction, and distribution of the Work otherwise complies
+	with the conditions stated in this License.
+	
+	5. Submission of Contributions.
+	
+	Unless You explicitly state otherwise, any Contribution intentionally submitted
+	for inclusion in the Work by You to the Licensor shall be under the terms and
+	conditions of this License, without any additional terms or conditions.
+	Notwithstanding the above, nothing herein shall supersede or modify the terms of
+	any separate license agreement you may have executed with Licensor regarding
+	such Contributions.
+	
+	6. Trademarks.
+	
+	This License does not grant permission to use the trade names, trademarks,
+	service marks, or product names of the Licensor, except as required for
+	reasonable and customary use in describing the origin of the Work and
+	reproducing the content of the NOTICE file.
+	
+	7. Disclaimer of Warranty.
+	
+	Unless required by applicable law or agreed to in writing, Licensor provides the
+	Work (and each Contributor provides its Contributions) on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied,
+	including, without limitation, any warranties or conditions of TITLE,
+	NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are
+	solely responsible for determining the appropriateness of using or
+	redistributing the Work and assume any risks associated with Your exercise of
+	permissions under this License.
+	
+	8. Limitation of Liability.
+	
+	In no event and under no legal theory, whether in tort (including negligence),
+	contract, or otherwise, unless required by applicable law (such as deliberate
+	and grossly negligent acts) or agreed to in writing, shall any Contributor be
+	liable to You for damages, including any direct, indirect, special, incidental,
+	or consequential damages of any character arising as a result of this License or
+	out of the use or inability to use the Work (including but not limited to
+	damages for loss of goodwill, work stoppage, computer failure or malfunction, or
+	any and all other commercial damages or losses), even if such Contributor has
+	been advised of the possibility of such damages.
+	
+	9. Accepting Warranty or Additional Liability.
+	
+	While redistributing the Work or Derivative Works thereof, You may choose to
+	offer, and charge a fee for, acceptance of support, warranty, indemnity, or
+	other liability obligations and/or rights consistent with this License. However,
+	in accepting such obligations, You may act only on Your own behalf and on Your
+	sole responsibility, not on behalf of any other Contributor, and only if You
+	agree to indemnify, defend, and hold each Contributor harmless for any liability
+	incurred by, or claims asserted against, such Contributor by reason of your
+	accepting any such warranty or additional liability.
+	
+	END OF TERMS AND CONDITIONS
+	
+	APPENDIX: How to apply the Apache License to your work
+	
+	To apply the Apache License to your work, attach the following boilerplate
+	notice, with the fields enclosed by brackets "{}" replaced with your own
+	identifying information. (Don't include the brackets!) The text should be
+	enclosed in the appropriate comment syntax for the file format. We also
+	recommend that a file or class name and description of purpose be included on
+	the same "printed page" as the copyright notice for easier identification within
+	third-party archives.
+	
+	   Copyright 2018 JFinal
+	
+	   Licensed under the Apache License, Version 2.0 (the "License");
+	   you may not use this file except in compliance with the License.
+	   You may obtain a copy of the License at
+	
+	     http://www.apache.org/licenses/LICENSE-2.0
+	
+	   Unless required by applicable law or agreed to in writing, software
+	   distributed under the License is distributed on an "AS IS" BASIS,
+	   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	   See the License for the specific language governing permissions and
+	   limitations under the License.
+*/
 package org.tio.http.server.handler;
 
 import java.beans.PropertyDescriptor;
 import java.io.File;
+import java.io.FileFilter;
 import java.io.InputStream;
 import java.lang.management.ManagementFactory;
 import java.lang.reflect.Method;
@@ -11,7 +205,10 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 import java.util.concurrent.ExecutionException;
+import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.io.monitor.FileAlterationMonitor;
+import org.apache.commons.io.monitor.FileAlterationObserver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.tio.core.Tio;
@@ -28,7 +225,6 @@ import org.tio.http.common.handler.HttpRequestHandler;
 import org.tio.http.common.session.HttpSession;
 import org.tio.http.common.session.limiter.SessionRateLimiter;
 import org.tio.http.common.session.limiter.SessionRateVo;
-import org.tio.http.common.utils.HttpGzipUtils;
 import org.tio.http.common.view.freemarker.FreemarkerConfig;
 import org.tio.http.server.intf.CurrUseridGetter;
 import org.tio.http.server.intf.HttpServerInterceptor;
@@ -50,6 +246,7 @@ import org.tio.http.server.util.ClassUtils;
 import org.tio.http.server.util.Resps;
 import org.tio.server.ServerChannelContext;
 import org.tio.utils.IoUtils;
+import org.tio.utils.SysConst;
 import org.tio.utils.SystemTimer;
 import org.tio.utils.cache.caffeine.CaffeineCache;
 import org.tio.utils.freemarker.FreemarkerUtils;
@@ -59,6 +256,7 @@ import org.tio.utils.hutool.ClassUtil;
 import org.tio.utils.hutool.FileUtil;
 import org.tio.utils.hutool.StrUtil;
 import org.tio.utils.hutool.Validator;
+import org.tio.utils.lock.LockUtils;
 
 import com.esotericsoftware.reflectasm.MethodAccess;
 
@@ -70,74 +268,75 @@ import freemarker.template.Configuration;
  *
  */
 public class DefaultHttpRequestHandler implements HttpRequestHandler {
-	private static Logger log = LoggerFactory.getLogger(DefaultHttpRequestHandler.class);
-
+	private static Logger								log								= LoggerFactory.getLogger(DefaultHttpRequestHandler.class);
 	/**
 	 * 静态资源的CacheName
 	 * key:   path 譬如"/index.html"
 	 * value: FileCache
 	 */
-	private static final String STATIC_RES_CONTENT_CACHENAME = "TIO_HTTP_STATIC_RES_CONTENT";
-
-	private static final String SESSIONRATELIMITER_CACHENAME = "TIO_HTTP_SESSIONRATELIMITER_CACHENAME";
-
+	private static final String							STATIC_RES_CONTENT_CACHENAME	= "TIO_HTTP_STATIC_RES_CONTENT";
+	private static final String							SESSIONRATELIMITER_CACHENAME	= "TIO_HTTP_SESSIONRATELIMITER_CACHENAME";
 	/**
 	 * 把cookie对象存到ChannelContext对象中
 	 * request.channelContext.setAttribute(SESSION_COOKIE_KEY, sessionCookie);
 	 */
-	private static final String SESSION_COOKIE_KEY = "TIO_HTTP_SESSION_COOKIE";
+	private static final String							SESSION_COOKIE_KEY				= "TIO_HTTP_SESSION_COOKIE";
+	private static final Map<Class<?>, MethodAccess>	CLASS_METHODACCESS_MAP			= new HashMap<>();
+	protected HttpConfig								httpConfig;
+	protected Routes									routes							= null;
+	private HttpServerInterceptor						httpServerInterceptor;
+	private HttpSessionListener							httpSessionListener;
+	private ThrowableHandler							throwableHandler;
+	private SessionCookieDecorator						sessionCookieDecorator;
+	private IpPathAccessStats							ipPathAccessStats;
+	private TokenPathAccessStats						tokenPathAccessStats;
+	/**
+	 * 静态资源缓存
+	 */
+	CaffeineCache										staticResCache;
+	/**
+	 * 限流缓存
+	 */
+	private CaffeineCache								sessionRateLimiterCache;
+	private static final String							SESSIONRATELIMITER_KEY_SPLIT	= "?";
+	private String										contextPath;
+	private int											contextPathLength				= 0;
+	private String										suffix;
+	private int											suffixLength					= 0;
+	/**
+	 * 赋值兼容处理
+	 */
+	private boolean										compatibilityAssignment			= true;
 
-	private static final Map<Class<?>, MethodAccess> CLASS_METHODACCESS_MAP = new HashMap<>();
-
-	private static MethodAccess getMethodAccess(Class<?> clazz) {
+	private static MethodAccess getMethodAccess(Class<?> clazz) throws Exception {
 		MethodAccess ret = CLASS_METHODACCESS_MAP.get(clazz);
 		if (ret == null) {
-			synchronized (CLASS_METHODACCESS_MAP) {
-				ret = CLASS_METHODACCESS_MAP.get(clazz);
-				if (ret == null) {
-					ret = MethodAccess.get(clazz);
-					CLASS_METHODACCESS_MAP.put(clazz, ret);
+			LockUtils.runWriteOrWaitRead("_tio_http_h_ma_" + clazz.getName(), clazz, () -> {
+			    //				@Override
+			    //				public void read() {
+			    //				}
+
+			    //				@Override
+			    //				public void write() {
+			    //					MethodAccess ret = CLASS_METHODACCESS_MAP.get(clazz);
+			    if (CLASS_METHODACCESS_MAP.get(clazz) == null) {
+					//						ret = MethodAccess.get(clazz);
+					CLASS_METHODACCESS_MAP.put(clazz, MethodAccess.get(clazz));
 				}
-			}
+				//				}
+			});
+			ret = CLASS_METHODACCESS_MAP.get(clazz);
 		}
 		return ret;
 	}
-
-	protected HttpConfig httpConfig;
-
-	protected Routes routes = null;
-
-	//	private LoadingCache<String, HttpSession> loadingCache = null;
-
-	private HttpServerInterceptor httpServerInterceptor;
-
-	private HttpSessionListener httpSessionListener;
-
-	private ThrowableHandler throwableHandler;
-
-	private SessionCookieDecorator sessionCookieDecorator;
-
-	private IpPathAccessStats ipPathAccessStats;
-
-	private TokenPathAccessStats tokenPathAccessStats;
-
-	private CaffeineCache staticResCache;
-
-	private CaffeineCache sessionRateLimiterCache;
-
-	private static final String SESSIONRATELIMITER_KEY_SPLIT = "?";
-
-	private String	contextPath;
-	private int		contextPathLength	= 0;
-	private String	suffix;
-	private int		suffixLength		= 0;
 
 	/**
 	 * 
 	 * @param httpConfig
 	 * @param scanRootClasse
+	 * @throws Exception 
 	 */
-	public DefaultHttpRequestHandler(HttpConfig httpConfig, Class<?> scanRootClasse) {
+	public DefaultHttpRequestHandler(HttpConfig httpConfig, Class<?> scanRootClasse) throws Exception {
 		this(httpConfig, new Class<?>[] { scanRootClasse });
 	}
 
@@ -146,8 +345,9 @@ public class DefaultHttpRequestHandler implements HttpRequestHandler {
 	 * @param httpConfig
 	 * @param scanRootClasse
 	 * @param controllerFactory
+	 * @throws Exception 
 	 */
-	public DefaultHttpRequestHandler(HttpConfig httpConfig, Class<?> scanRootClasse, ControllerFactory controllerFactory) {
+	public DefaultHttpRequestHandler(HttpConfig httpConfig, Class<?> scanRootClasse, ControllerFactory controllerFactory) throws Exception {
 		this(httpConfig, new Class<?>[] { scanRootClasse }, controllerFactory);
 	}
 
@@ -155,8 +355,9 @@ public class DefaultHttpRequestHandler implements HttpRequestHandler {
 	 * 
 	 * @param httpConfig
 	 * @param scanRootClasses
+	 * @throws Exception 
 	 */
-	public DefaultHttpRequestHandler(HttpConfig httpConfig, Class<?>[] scanRootClasses) {
+	public DefaultHttpRequestHandler(HttpConfig httpConfig, Class<?>[] scanRootClasses) throws Exception {
 		this(httpConfig, scanRootClasses, null);
 	}
 
@@ -165,8 +366,9 @@ public class DefaultHttpRequestHandler implements HttpRequestHandler {
 	 * @param httpConfig
 	 * @param scanRootClasses
 	 * @param controllerFactory
+	 * @throws Exception 
 	 */
-	public DefaultHttpRequestHandler(HttpConfig httpConfig, Class<?>[] scanRootClasses, ControllerFactory controllerFactory) {
+	public DefaultHttpRequestHandler(HttpConfig httpConfig, Class<?>[] scanRootClasses, ControllerFactory controllerFactory) throws Exception {
 		Routes routes = new Routes(scanRootClasses, controllerFactory);
 		init(httpConfig, routes);
 	}
@@ -175,8 +377,9 @@ public class DefaultHttpRequestHandler implements HttpRequestHandler {
 	 * 
 	 * @param httpConfig
 	 * @param scanPackage
+	 * @throws Exception 
 	 */
-	public DefaultHttpRequestHandler(HttpConfig httpConfig, String scanPackage) {
+	public DefaultHttpRequestHandler(HttpConfig httpConfig, String scanPackage) throws Exception {
 		this(httpConfig, scanPackage, null);
 	}
 
@@ -185,8 +388,9 @@ public class DefaultHttpRequestHandler implements HttpRequestHandler {
 	 * @param httpConfig
 	 * @param scanPackage
 	 * @param controllerFactory
+	 * @throws Exception 
 	 */
-	public DefaultHttpRequestHandler(HttpConfig httpConfig, String scanPackage, ControllerFactory controllerFactory) {
+	public DefaultHttpRequestHandler(HttpConfig httpConfig, String scanPackage, ControllerFactory controllerFactory) throws Exception {
 		this(httpConfig, new String[] { scanPackage }, controllerFactory);
 	}
 
@@ -194,8 +398,9 @@ public class DefaultHttpRequestHandler implements HttpRequestHandler {
 	 * 
 	 * @param httpConfig
 	 * @param scanPackages
+	 * @throws Exception 
 	 */
-	public DefaultHttpRequestHandler(HttpConfig httpConfig, String[] scanPackages) {
+	public DefaultHttpRequestHandler(HttpConfig httpConfig, String[] scanPackages) throws Exception {
 		this(httpConfig, scanPackages, null);
 	}
 
@@ -204,8 +409,9 @@ public class DefaultHttpRequestHandler implements HttpRequestHandler {
 	 * @param httpConfig
 	 * @param scanPackages
 	 * @param controllerFactory
+	 * @throws Exception 
 	 */
-	public DefaultHttpRequestHandler(HttpConfig httpConfig, String[] scanPackages, ControllerFactory controllerFactory) {
+	public DefaultHttpRequestHandler(HttpConfig httpConfig, String[] scanPackages, ControllerFactory controllerFactory) throws Exception {
 		Routes routes = new Routes(scanPackages, controllerFactory);
 		init(httpConfig, routes);
 	}
@@ -214,12 +420,13 @@ public class DefaultHttpRequestHandler implements HttpRequestHandler {
 	 * 
 	 * @param httpConfig
 	 * @param routes
+	 * @throws Exception 
 	 */
-	public DefaultHttpRequestHandler(HttpConfig httpConfig, Routes routes) {
+	public DefaultHttpRequestHandler(HttpConfig httpConfig, Routes routes) throws Exception {
 		init(httpConfig, routes);
 	}
 
-	private void init(HttpConfig httpConfig, Routes routes) {
+	private void init(HttpConfig httpConfig, Routes routes) throws Exception {
 		if (httpConfig == null) {
 			throw new RuntimeException("httpConfig can not be null");
 		}
@@ -242,6 +449,8 @@ public class DefaultHttpRequestHandler implements HttpRequestHandler {
 		sessionRateLimiterCache = CaffeineCache.register(SESSIONRATELIMITER_CACHENAME, 60 * 1L, null);
 
 		this.routes = routes;
+
+		this.monitorFileChanged();
 	}
 
 	/**
@@ -249,7 +458,7 @@ public class DefaultHttpRequestHandler implements HttpRequestHandler {
 	 * @return
 	 * @author tanyaowu
 	 */
-	private HttpSession createSession(HttpRequest request) {
+	public HttpSession createSession(HttpRequest request) {
 		String sessionId = httpConfig.getSessionIdGenerator().sessionId(httpConfig, request);
 		HttpSession httpSession = new HttpSession(sessionId);
 		if (httpSessionListener != null) {
@@ -423,36 +632,45 @@ public class DefaultHttpRequestHandler implements HttpRequestHandler {
 					//赋值这段代码待重构，先用上
 					Object[] paramValues = new Object[parameterTypes.length];
 					int i = 0;
-					for (Class<?> paramType : parameterTypes) {
+					label_3: for (Class<?> paramType : parameterTypes) {
 						try {
 							if (paramType == HttpRequest.class) {
 								paramValues[i] = request;
-							} else if (paramType == HttpSession.class) {
-								paramValues[i] = request.getHttpSession();
-							} else if (paramType == HttpConfig.class) {
-								paramValues[i] = httpConfig;
-							} else if (paramType == ServerChannelContext.class) { //paramType.isAssignableFrom(ServerChannelContext.class)
-								paramValues[i] = request.channelContext;
+								continue label_3;
 							} else {
+								if (compatibilityAssignment) {
+									if (paramType == HttpSession.class) {
+										paramValues[i] = request.getHttpSession();
+										continue label_3;
+									} else if (paramType == HttpConfig.class) {
+										paramValues[i] = httpConfig;
+										continue label_3;
+									} else if (paramType == ServerChannelContext.class) { //paramType.isAssignableFrom(ServerChannelContext.class)
+										paramValues[i] = request.channelContext;
+										continue label_3;
+									}
+								}
+
 								Map<String, Object[]> params = request.getParams();
 								if (params != null) {
 									if (ClassUtils.isSimpleTypeOrArray(paramType)) {
-										//										paramValues[i] = Ognl.getValue(paramnames[i], (Object) params, paramType);
 										Object[] value = params.get(paramnames[i]);
 										if (value != null && value.length > 0) {
 											if (paramType.isArray()) {
-												//												paramValues[i] = Convert.convert(paramType, value);
 												if (value.getClass() == String[].class) {
 													paramValues[i] = StrUtil.convert(paramType, (String[]) value);
 												} else {
 													paramValues[i] = value;
 												}
 											} else {
-												//												paramValues[i] = Convert.convert(paramType, value[0]);
-												if (value[0].getClass() == String.class) {
-													paramValues[i] = StrUtil.convert(paramType, (String) value[0]);
+												if (value[0] == null) {
+													paramValues[i] = null;
 												} else {
-													paramValues[i] = value[0];
+													if (value[0].getClass() == String.class) {
+														paramValues[i] = StrUtil.convert(paramType, (String) value[0]);
+													} else {
+														paramValues[i] = value[0];
+													}
 												}
 											}
 										}
@@ -460,53 +678,63 @@ public class DefaultHttpRequestHandler implements HttpRequestHandler {
 										paramValues[i] = paramType.newInstance();//BeanUtil.mapToBean(params, paramType, true);
 										Set<Entry<String, Object[]>> set = params.entrySet();
 										label2: for (Entry<String, Object[]> entry : set) {
-											String fieldName = entry.getKey();
-											Object[] fieldValue = entry.getValue();
+											try {
+												String fieldName = entry.getKey();
+												Object[] fieldValue = entry.getValue();
 
-											PropertyDescriptor propertyDescriptor = BeanUtil.getPropertyDescriptor(paramType, fieldName, false);
-											if (propertyDescriptor == null) {
-												continue label2;
-											} else {
-												Method writeMethod = propertyDescriptor.getWriteMethod();
-												if (writeMethod == null) {
+												PropertyDescriptor propertyDescriptor = BeanUtil.getPropertyDescriptor(paramType, fieldName, false);
+												if (propertyDescriptor == null) {
 													continue label2;
-												}
-												writeMethod = ClassUtil.setAccessible(writeMethod);
-												Class<?>[] clazzes = writeMethod.getParameterTypes();
-												if (clazzes == null || clazzes.length != 1) {
-													log.info("方法的参数长度不为1，{}.{}", paramType.getName(), writeMethod.getName());
-													continue label2;
-												}
-												Class<?> clazz = clazzes[0];
+												} else {
+													Method writeMethod = propertyDescriptor.getWriteMethod();
+													if (writeMethod == null) {
+														continue label2;
+													}
+													writeMethod = ClassUtil.setAccessible(writeMethod);
+													Class<?>[] clazzes = writeMethod.getParameterTypes();
+													if (clazzes == null || clazzes.length != 1) {
+														log.info("方法的参数长度不为1，{}.{}", paramType.getName(), writeMethod.getName());
+														continue label2;
+													}
+													Class<?> clazz = clazzes[0];
 
-												if (ClassUtils.isSimpleTypeOrArray(clazz)) {
-													if (fieldValue != null && fieldValue.length > 0) {
-														if (clazz.isArray()) {
-															Object theValue = null;//Convert.convert(clazz, fieldValue);
-															if (fieldValue.getClass() == String[].class) {
-																theValue = StrUtil.convert(clazz, (String[]) fieldValue);
+													if (ClassUtils.isSimpleTypeOrArray(clazz)) {
+														if (fieldValue != null && fieldValue.length > 0) {
+															if (clazz.isArray()) {
+																Object theValue = null;//Convert.convert(clazz, fieldValue);
+																if (fieldValue.getClass() == String[].class) {
+																	theValue = StrUtil.convert(clazz, (String[]) fieldValue);
+																} else {
+																	theValue = fieldValue;
+																}
+
+																getMethodAccess(paramType).invoke(paramValues[i], writeMethod.getName(), theValue);
 															} else {
-																theValue = fieldValue;
-															}
+																Object theValue = null;//Convert.convert(clazz, fieldValue[0]);
+																if (fieldValue[0] == null) {
+																	theValue = fieldValue[0];
+																} else {
+																	if (fieldValue[0].getClass() == String.class) {
+																		theValue = StrUtil.convert(clazz, (String) fieldValue[0]);
+																	} else {
+																		theValue = fieldValue[0];
+																	}
+																}
 
-															getMethodAccess(paramType).invoke(paramValues[i], writeMethod.getName(), theValue);
-														} else {
-															Object theValue = null;//Convert.convert(clazz, fieldValue[0]);
-															if (fieldValue[0].getClass() == String.class) {
-																theValue = StrUtil.convert(clazz, (String) fieldValue[0]);
-															} else {
-																theValue = fieldValue[0];
+																getMethodAccess(paramType).invoke(paramValues[i], writeMethod.getName(), theValue);
 															}
-
-															getMethodAccess(paramType).invoke(paramValues[i], writeMethod.getName(), theValue);
 														}
 													}
 												}
+											} catch (Throwable e) {
+												log.error(e.toString(), e);
 											}
 										}
 									}
 								}
+
 							}
+
 						} catch (Throwable e) {
 							log.error(request.toString(), e);
 						} finally {
@@ -514,7 +742,8 @@ public class DefaultHttpRequestHandler implements HttpRequestHandler {
 						}
 					}
 
-					obj = Routes.BEAN_METHODACCESS_MAP.get(bean).invoke(bean, method.getName(), parameterTypes, paramValues);
+					MethodAccess methodAccess = Routes.BEAN_METHODACCESS_MAP.get(bean);
+					obj = methodAccess.invoke(bean, method.getName(), parameterTypes, paramValues);
 				}
 
 				if (obj instanceof HttpResponse) {
@@ -566,31 +795,9 @@ public class DefaultHttpRequestHandler implements HttpRequestHandler {
 				} else {
 					String pageRoot = httpConfig.getPageRoot(request);
 					if (pageRoot != null) {
-						//						if (StrUtil.endWith(path, "/")) {
-						//							path = path + "index.html";
-						//						}
-						////						else {
-						////							path = path + "/index.html";
-						////						}
-						//						
-						//						String complatePath = pageRoot + path;
-						//						if (httpConfig.isPageInClasspath()) {
-						//							URL url = this.getClass().getClassLoader().getResource(complatePath);
-						//							if (url != null) {
-						//								file = new File(url.toURI());
-						//							}
-						//						} else {
-						////							String root = FileUtil.getAbsolutePath(pageRoot);
-						//							file = new File(complatePath);
-						////							if (!file.exists() || file.isDirectory()) {
-						////								
-						////								file = new File(pageRoot, path);
-						////							}
-						//						}
-
 						HttpResource httpResource = httpConfig.getResource(request, path);//.getFile(request, path);
-
 						if (httpResource != null) {
+							path = httpResource.getPath();
 							file = httpResource.getFile();
 							String template = httpResource.getPath(); // "/res/css/header-all.css"
 							InputStream inputStream = httpResource.getInputStream();
@@ -600,7 +807,6 @@ public class DefaultHttpRequestHandler implements HttpRequestHandler {
 							//项目中需要，时间支持一下freemarker模板，后面要做模板支持抽象设计
 							FreemarkerConfig freemarkerConfig = httpConfig.getFreemarkerConfig();
 							if (freemarkerConfig != null) {
-
 								if (ArrayUtil.contains(freemarkerConfig.getSuffixes(), extension)) {
 									Configuration configuration = freemarkerConfig.getConfiguration(request);
 									if (configuration != null) {
@@ -616,7 +822,7 @@ public class DefaultHttpRequestHandler implements HttpRequestHandler {
 													String retStr = FreemarkerUtils.generateStringByPath(template, configuration, model);
 													response = Resps.bytes(request, retStr.getBytes(configuration.getDefaultEncoding()), extension);
 													return response;
-												} catch (Exception e) {
+												} catch (Throwable e) {
 													log.error("freemarker错误，当成普通文本处理：" + file.getCanonicalPath() + ", " + e.toString());
 												}
 											}
@@ -648,10 +854,6 @@ public class DefaultHttpRequestHandler implements HttpRequestHandler {
 									if (contentEncoding != null) {
 										headers.put(HeaderName.Content_Encoding, contentEncoding);
 									}
-									//									if (StrUtil.isNotBlank(lastModified)) {
-									//										headers.put(HttpConst.ResponseHeaderKey.Last_Modified, lastModified);
-									//									}
-									//									headers.put(HttpConst.ResponseHeaderKey.tio_from_cache, "true");
 
 									HttpResponse responseInCache = new HttpResponse(request);
 									responseInCache.addHeaders(headers);
@@ -668,10 +870,11 @@ public class DefaultHttpRequestHandler implements HttpRequestHandler {
 									}
 
 									staticResCache.put(path, fileCache);
-									log.info("放入缓存:[{}], {}", path, response.getBody().length);
+									if (log.isInfoEnabled()) {
+										log.info("放入缓存:[{}], {}", path, response.getBody().length);
+									}
 								}
 							}
-
 							return response;
 						}
 					}
@@ -700,11 +903,7 @@ public class DefaultHttpRequestHandler implements HttpRequestHandler {
 							log.error(requestLine.toString(), e);
 						}
 					}
-					try {
-						HttpGzipUtils.gzip(request, response);
-					} catch (Exception e) {
-						log.error(e.toString(), e);
-					}
+
 					boolean f = statIpPath(request, response, path, iv);
 					if (!f) {
 						return null;
@@ -722,6 +921,30 @@ public class DefaultHttpRequestHandler implements HttpRequestHandler {
 					request.setForward(true);
 					return handler(request);
 				}
+			}
+		}
+	}
+
+	/**
+	 * 扫描文件变化
+	 * @throws Exception
+	 */
+	public void monitorFileChanged() throws Exception {
+		if (httpConfig.monitorFileChange) {
+			if (httpConfig.getPageRoot() != null) {
+				File directory = new File(httpConfig.getPageRoot());//需要扫描的文件夹路径
+				// 测试采用轮询间隔 5 秒
+				long interval = TimeUnit.SECONDS.toMillis(5);
+				FileAlterationObserver observer = new FileAlterationObserver(directory, new FileFilter() {
+					@Override
+					public boolean accept(File pathname) {
+						return true;
+					}
+				});
+				//设置文件变化监听器
+				observer.addListener(new FileChangeListener(this));
+				FileAlterationMonitor monitor = new FileAlterationMonitor(interval, observer);
+				monitor.start();
 			}
 		}
 	}
@@ -858,10 +1081,23 @@ public class DefaultHttpRequestHandler implements HttpRequestHandler {
 
 	private void logError(HttpRequest request, RequestLine requestLine, Throwable e) {
 		StringBuilder sb = new StringBuilder();
-		sb.append("\r\n").append("remote  :").append(request.getClientIp());
-		sb.append("\r\n").append("request :").append(requestLine.toString());
+		sb.append(SysConst.CRLF).append("remote  :").append(request.getClientIp());
+		sb.append(SysConst.CRLF).append("request :").append(requestLine.toString());
 		log.error(sb.toString(), e);
 
+	}
+
+	public static String getDomain(HttpRequest request) {
+		String domain = request.getDomain();
+
+		boolean isip = Validator.isIpv4(domain);
+		if (!isip) {
+			String[] dms = StrUtil.split(domain, ".");
+			if (dms.length > 2) {
+				domain = "." + dms[dms.length - 2] + "." + dms[dms.length - 1];
+			}
+		}
+		return domain;
 	}
 
 	private void processCookieAfterHandler(HttpRequest request, RequestLine requestLine, HttpResponse httpResponse) throws ExecutionException {
@@ -878,13 +1114,13 @@ public class DefaultHttpRequestHandler implements HttpRequestHandler {
 		String sessionId = getSessionId(request);
 
 		if (StrUtil.isBlank(sessionId)) {
-			createSessionCookie(request, httpSession, httpResponse);
+			createSessionCookie(request, httpSession, httpResponse, false);
 			//			log.info("{} 创建会话Cookie, {}", request.getChannelContext(), cookie);
 		} else {
 			HttpSession httpSession1 = (HttpSession) httpConfig.getSessionStore().get(sessionId);
 
 			if (httpSession1 == null) {//有cookie但是超时了
-				createSessionCookie(request, httpSession, httpResponse);
+				createSessionCookie(request, httpSession, httpResponse, false);
 			}
 		}
 	}
@@ -895,46 +1131,58 @@ public class DefaultHttpRequestHandler implements HttpRequestHandler {
 	 * @param request
 	 * @param httpSession
 	 * @param httpResponse
+	 * @param forceCreate
 	 * @return
 	 * @author tanyaowu
 	 */
-	private void createSessionCookie(HttpRequest request, HttpSession httpSession, HttpResponse httpResponse) {
+	private void createSessionCookie(HttpRequest request, HttpSession httpSession, HttpResponse httpResponse, boolean forceCreate) {
 		if (httpResponse == null) {
 			return;
 		}
 
-		Object test = request.channelContext.getAttribute(SESSION_COOKIE_KEY);
-		if (test != null) {
-			return;
-		}
-
-		String sessionId = httpSession.getId();
-		//		String host = request.getHost();
-		String domain = request.getDomain();
-
-		boolean isip = Validator.isIpv4(domain);
-		if (!isip) {
-			String[] dms = StrUtil.split(domain, ".");
-			if (dms.length > 2) {
-				domain = "." + dms[dms.length - 2] + "." + dms[dms.length - 1];
+		if (!forceCreate) {
+			Object test = request.channelContext.getAttribute(SESSION_COOKIE_KEY);
+			if (test != null) {
+				return;
 			}
 		}
 
+		String sessionId = httpSession.getId();
+		String domain = getDomain(request);
 		String name = httpConfig.getSessionCookieName();
 		long maxAge = 3600 * 24 * 365 * 10;//Math.max(httpConfig.getSessionTimeout() * 30, 3600 * 24 * 365 * 10);
-		//				maxAge = Long.MAX_VALUE; //把过期时间掌握在服务器端
 
 		Cookie sessionCookie = new Cookie(domain, name, sessionId, maxAge);
-
 		if (sessionCookieDecorator != null) {
 			sessionCookieDecorator.decorate(sessionCookie, request, request.getDomain());
 		}
 		httpResponse.addCookie(sessionCookie);
 
 		httpConfig.getSessionStore().put(sessionId, httpSession);
-
 		request.channelContext.setAttribute(SESSION_COOKIE_KEY, sessionCookie);
 		return;
+	}
+
+	/**
+	 * 更新sessionId
+	 * @param request
+	 * @param httpSession
+	 * @param httpResponse
+	 * @return
+	 * @author tanyaowu
+	 */
+	public HttpSession updateSessionId(HttpRequest request, HttpSession httpSession, HttpResponse httpResponse) {
+		String oldId = httpSession.getId();
+		String newId = httpConfig.getSessionIdGenerator().sessionId(httpConfig, request);
+		httpSession.setId(newId);
+		
+		if (httpSessionListener != null) {
+			httpSessionListener.doAfterCreated(request, httpSession, httpConfig);
+		}
+		httpConfig.getSessionStore().remove(oldId);
+		createSessionCookie(request, httpSession, httpResponse, true);
+		httpSession.update(httpConfig); //HttpSession有变动时，都要调一下update()
+		return httpSession;
 	}
 
 	private void processCookieBeforeHandler(HttpRequest request, RequestLine requestLine) throws ExecutionException {
@@ -954,7 +1202,10 @@ public class DefaultHttpRequestHandler implements HttpRequestHandler {
 
 			httpSession = (HttpSession) httpConfig.getSessionStore().get(sessionId);
 			if (httpSession == null) {
-				log.info("{} session【{}】超时", request.channelContext, sessionId);
+				if (log.isInfoEnabled()) {
+					log.info("{} session【{}】超时", request.channelContext, sessionId);
+				}
+
 				httpSession = createSession(request);
 			}
 		}
@@ -1068,5 +1319,13 @@ public class DefaultHttpRequestHandler implements HttpRequestHandler {
 
 	public void setTokenPathAccessStats(TokenPathAccessStats tokenPathAccessStats) {
 		this.tokenPathAccessStats = tokenPathAccessStats;
+	}
+
+	public boolean isCompatibilityAssignment() {
+		return compatibilityAssignment;
+	}
+
+	public void setCompatibilityAssignment(boolean compatibilityAssignment) {
+		this.compatibilityAssignment = compatibilityAssignment;
 	}
 }
